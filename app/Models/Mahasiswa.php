@@ -30,3 +30,26 @@ class Mahasiswa extends Model
 //     'email' => 'john@gmail.com',
 //     'program_studi' => 'Teknik Informatika',
 // ]);
+
+// Mahasiswa::get();
+
+// Mahasiswa::where('nim', '22552011245')
+//     ->update([
+//         'nim' => '22552011245',
+//         'nama' => 'Johna',
+//         'alamat' => 'Bandung',
+//         'tanggal_lahir' => '2002-10-10',
+//         'jenis_kelamin' => 'L',
+//         'email' => 'john@gmail.com',
+//         'program_studi' => 'Teknik Informatika',
+//     ]);
+
+// Mahasiswa::update([
+//     'nim' => '22552011245',
+//     'nama' => 'Johna',
+//     'alamat' => 'Bandung',
+//     'tanggal_lahir' => '2002-10-10',
+//     'jenis_kelamin' => 'L',
+//     'email' => 'john@gmail.com',
+//     'program_studi' => 'Teknik Informatika',
+// ])->where('nim', '22552011245');
